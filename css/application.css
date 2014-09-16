@@ -4,6 +4,8 @@
 	background-color: white;
 	margin-bottom: 0;
 	color: #424242;
+	padding-top: 60px;
+	padding-bottom: 60px;
 }
 /* global
 =======================================*/
@@ -33,20 +35,25 @@ html, body {
 /* navbar
 =======================================*/
 .logo {
-	width: 50px;
-	height: 50px;
-	white-space: nowrap;
-	overflow: hidden;
-	background: url('../img/R-logo.png') no-repeat;
-	background-size: 100%;
+	font-family: 'Lobster', cursive;
+	font-size: xx-large;
+	color: #424242 !important;
 }
 
 .navbar-default {
 	background-color: #fff;
 	border: none;
-	
+	padding: 10px 0;
 }
 
+.navbar-nav>li>a {
+	font-size: larger;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+	color: #fff;
+	background-color: #424242;
+}
 
 /* jumbotron
 =======================================*/
