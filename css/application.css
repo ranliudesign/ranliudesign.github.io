@@ -1,0 +1,189 @@
+/* to be removed by customize bootstrap
+=======================================*/
+.jumbotron {
+	background-color: white;
+	margin-bottom: 0;
+	color: #424242;
+}
+/* global
+=======================================*/
+body {
+	padding-top: 50px;
+}
+html, body {
+	height: 100%
+}
+.btn-default {
+	border-color: #424242;
+	border-radius: 0;
+	text-align: center;
+	margin: 40px;
+}
+.section-header {
+	margin-bottom: 40px;
+}
+
+.thumbnail {
+	background: none;
+	border: none;
+}
+.thumbnail > img {
+
+}
+/* navbar
+=======================================*/
+.logo {
+	width: 50px;
+	height: 50px;
+	white-space: nowrap;
+	overflow: hidden;
+	background: url('../img/R-logo.png') no-repeat;
+	background-size: 100%;
+}
+
+.navbar-default {
+	background-color: #fff;
+	border: none;
+}
+
+/* jumbotron
+=======================================*/
+
+.jumbotron .container {
+	max-width: 900px;
+
+}
+.arrow-down {
+	width: 0; 
+	height: 0; 
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	
+	border-top: 20px solid #EE675B;
+	margin: auto;
+}
+.turquoise {
+	background-color: #7DD5C9;
+}
+.darkblue {
+	background-color: #4c5364;
+	color: #b7bbc9;
+}
+
+/* cover */
+#cover {
+	/*padding: 150px 10px;*/
+	height: 80%;
+	position: relative;
+    background-color: #EE675B;
+    background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0.06, #F08548),
+		color-stop(0.35, #EE675B)
+	);
+	background-image: -o-linear-gradient(bottom, #F08548 6%, #EE675B 35%);
+	background-image: -moz-linear-gradient(bottom, #F08548 6%, #EE675B 35%);
+	background-image: -webkit-linear-gradient(bottom, #F08548 6%, #EE675B 35%);
+	background-image: -ms-linear-gradient(bottom, #F08548 6%, #EE675B 35%);
+	background-image: linear-gradient(to bottom, #F08548 6%, #EE675B 35%);
+}
+#cover .tagline {
+	/*margin-top: 200px;*/
+	font-size: 2em;
+	color: #fff;
+	white-space: pre;
+}
+
+/* greeting */
+.profile-photo {
+	max-width: 300px;
+	margin: 100px auto;
+
+}
+/* typed
+=======================================*/
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+/* terminal
+=======================================*/
+.round-corners-5px{
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.unround-bottom-corners{
+    -webkit-border-bottom-left-radius: 0px;
+    -webkit-border-bottom-right-radius: 0px;
+    -moz-border-radius-bottomleft: 0px;
+    -moz-border-radius-bottomright: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.unround-top-corners{
+    -webkit-border-top-left-radius: 0px;
+    -webkit-border-top-right-radius: 0px;
+    -moz-border-radius-topleft: 0px;
+    -moz-border-radius-topright: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.terminal {
+	max-width: 600px;
+	margin: auto;
+	-webkit-box-shadow: 5px 8px 5px 0px rgba(75, 72, 75, 0.6);
+	-moz-box-shadow:    5px 8px 5px 0px rgba(75, 72, 75, 0.6);
+	box-shadow:         5px 8px 5px 0px rgba(75, 72, 75, 0.6);
+}
+.Absolute-Center {
+  /*width: 50%;*/
+  height: 30%;
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+.terminal-titlebar {
+	height: 10%;
+	background-color: #fff;
+}
+
+.terminal-body {
+	height: 90%;
+	background-color: #000;
+}
+
+footer {
+	background-color: #000;
+	color: #888c99; 
+	padding: 6px;
+	padding-left: 100px;
+}
+
+footer > p {
+	margin-bottom: 0;
+}
+
+
+
