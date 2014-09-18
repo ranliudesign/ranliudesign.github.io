@@ -1,67 +1,30 @@
+
 /* to be removed by customize bootstrap
 =======================================*/
 .jumbotron {
 	background-color: white;
-	margin-bottom: 0;
 	color: #424242;
 	padding-top: 60px;
 	padding-bottom: 60px;
 }
-/* global
+/* global components
 =======================================*/
-body {
+/*body {
 	padding-top: 70px;
-}
+}*/
 html, body {
 	height: 100%
 }
+
 .btn-default {
 	border-color: #424242;
 	border-radius: 0;
 	text-align: center;
 	margin: 40px;
 }
-.section-header {
-	margin-bottom: 40px;
-}
-
-.thumbnail {
-	background: none;
-	border: none;
-}
-.thumbnail > img {
-
-}
-/* navbar
-=======================================*/
-.logo {
-	font-family: 'Lobster', cursive;
-	font-size: xx-large;
-	color: #424242 !important;
-}
-
-.navbar-default {
-	background-color: #fff;
-	border: none;
-	padding: 10px 0;
-}
-
-.navbar-nav>li>a {
-	font-size: larger;
-}
-
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
-	color: #fff;
-	background-color: #424242;
-}
-
-
-/* jumbotron
-=======================================*/
-
 .container {
-	max-width: 1200px;
-
+	max-width: 1000px;
+	padding: 40px 0;
 }
 
 .turquoise {
@@ -73,12 +36,49 @@ html, body {
 }
 
 
-/* greeting */
-.profile-photo {
-	max-width: 300px;
-	width: 50%;
-	margin: 60px auto;
 
+/* navbar
+=======================================*/
+.navbar > .container {
+	padding: 0 0;
+}
+.logo {
+	font-family: 'Lobster', cursive;
+	font-size: xx-large;
+	color: #424242 !important;
+}
+
+.navbar-default {
+	background-color: #fff;
+	border: none;
+	/*padding: 10px 0;*/
+}
+
+.navbar-nav>li>a {
+	font-size: larger;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+	color: #fff;
+	background-color: #424242;
+}
+
+/* sections
+=======================================*/
+.section-desc {
+	max-width: 600px;
+	margin: auto;
+}
+
+.section-header {
+	font-family: 'Lobster', cursive;
+	margin-bottom: 20px;
+
+}
+
+.row {
+	margin-top: 20px;
+	padding: 10px;
 }
 
 /* footer
@@ -86,13 +86,16 @@ html, body {
 footer {
 	background-color: #000;
 	color: #888c99; 
-	padding: 6px;
-	padding-left: 100px;
+	padding: 10px 100px;
 }
 
 footer > p {
 	margin-bottom: 0;
 }
-
-
-
+.social {
+	font-size: 30px;
+	color: #b7bbc9;
+	vertical-align: text-bottom;
+	margin: 3px;
+	height: 30px;
+}

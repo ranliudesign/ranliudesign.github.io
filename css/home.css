@@ -1,0 +1,62 @@
+
+/* jumbotron
+=======================================*/
+
+/* greeting */
+.profile-photo {
+	max-width: 300px;
+	width: 50%;
+	margin: 60px auto;
+
+}
+/* thumbnail
+=======================================*/
+.thumbnail h3{
+	font-size: 20px;
+	margin: 4px 0;
+}
+.thumbnail  img {
+	border-radius: 5px;
+}
+.thumbnail p {
+	color: #777;
+}
+/* Ribbon */
+.banner {
+	position: absolute;
+	top: 15px;
+	right: -0px;
+	overflow: visible;
+	font-size: 18px;
+	line-height: 18px;
+	padding:20px;
+	background:#f06657;
+	height:58px;
+	margin-left:29px;
+	color:#fff;
+	text-decoration:none;
+}
+.banner:after {
+	content:""; 
+	height: 0;
+	width: 0;
+	display:block;
+	position:absolute;
+	bottom:-15px;
+	right:0;
+	border-top: 15px solid #74231a; 
+	border-right: 15px solid transparent;
+}
+.banner:before {
+	content:"";
+	height: 0;
+	width: 0;
+	display:block;
+	position:absolute;
+	top:0;
+	left:-29px;
+	border-top: 29px solid #f06657; 
+	border-bottom: 29px solid #f06657; 
+	border-right: 29px solid transparent;
+	border-left: 29px solid transparent;
+}
