@@ -4,7 +4,7 @@
 
 /* greeting */
 .profile-photo {
-	max-width: 300px;
+	max-width: 256px;
 	width: 50%;
 	margin: 60px auto;
 
@@ -18,8 +18,18 @@
 .thumbnail  img {
 	border-radius: 5px;
 }
+
 .thumbnail p {
 	color: #777;
+}
+.thumbnail a{
+	color: #424242;
+}
+.thumbnail a:hover{
+	text-decoration: none;
+}
+.thumbnail:hover {
+	background: #d6ffd7;
 }
 /* Ribbon */
 .banner {
