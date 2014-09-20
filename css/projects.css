@@ -1,0 +1,99 @@
+.tags {
+	padding-left: 0;
+	margin-top: 20px;
+}
+.banner {
+	position: absolute;
+	top: 50px;
+	right: 50px;
+	font-size: 18px;
+	line-height: 18px;
+	padding:20px;
+	background:#f06657;
+	height:58px;
+	margin-left:29px;
+	color:#fff;
+	text-decoration:none;
+}
+.tags li {
+	display: inline;
+	list-style-type: none;
+	padding: 3px 5px;
+	margin-right: 20px;
+	margin-left: 11px;
+	color: #888c99;
+	background-color: #efede7;
+	position:relative;
+}
+.tags li:before {
+	content: "";
+	float:left;
+	position:absolute;
+	top:0;
+	left:-11px;
+	width:0;
+	height:0;
+	border-color:transparent #efede7 transparent transparent;
+	border-style:solid;
+	border-width:11px 11px 11px 0;		
+
+}
+
+.subheader {
+	font-weight: 500;
+	margin-right: 15px;
+	font-size: 16px;
+}
+
+.background {
+	padding: 20px 0;
+	border-radius: 5px;
+}
+
+.ref {
+	font-size: 14px;
+	border-top: solid 1px;
+	margin-top: 10px;
+	padding-top: 5px;
+	padding-left: 6px;
+}
+
+.project-desc li {
+	font-size: 16px;
+}
+
+iframe {
+	margin-top: 20px;
+}
+.quote h1{
+	font-family: 'Coming Soon', cursive;
+}
+.grid {
+	position: relative;
+	z-index: 1;
+}
+.grid:before {
+	content: "";
+  	position: absolute;
+  	z-index: -1;
+  	top: 0;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+	margin: 0px;
+	padding: 0px;
+	background-image: url(../img/grid.png);
+	background-repeat: repeat;
+	opacity: 0.1;
+}
+.grid img{
+	max-width: 100%;
+	padding: 20px;
+	margin: auto;
+}
+.grid p {
+	background-color: #fff;
+}
+.no-background {
+	background: none !important;
+}
