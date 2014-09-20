@@ -46,6 +46,9 @@ html, body {
 .yellow {
 	background-color: #fed587;
 }
+.orange {
+	background-color: #f39355;
+}
 /* navbar
 =======================================*/
 .navbar > .container {
