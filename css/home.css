@@ -31,6 +31,9 @@
 .thumbnail:hover {
 	background: #d6ffd7;
 }
+.thumbnail .caption {
+	height: 100px;
+}
 /* Ribbon */
 .banner {
 	position: absolute;

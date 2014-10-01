@@ -98,3 +98,6 @@ iframe {
 .no-background {
 	background: none !important;
 }
+.top-margin {
+	margin-top: 40px;
+}
