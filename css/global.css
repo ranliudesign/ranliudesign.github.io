@@ -11,6 +11,14 @@
 p {
 	font-size: 16px;
 }
+
+a {
+	color: #f06657;
+}
+
+a:hover {
+	color: #f47d7a;
+}
 /* global components
 =======================================*/
 body {
@@ -46,9 +54,8 @@ html, body {
 .yellow {
 	background-color: #fed587;
 }
-.orange {
-	background-color: #f39355;
-}
+
+
 
 /* navbar
 =======================================*/
