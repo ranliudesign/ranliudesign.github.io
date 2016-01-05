@@ -1,75 +1,122 @@
 
-/* jumbotron
+/* top
 =======================================*/
-
-/* greeting */
-.profile-photo {
-	max-width: 256px;
-	width: 50%;
-	margin: 60px auto;
-
+h1 {
+	font-size: 32px;
+	letter-spacing: 5px;
+	font-weight: 600;
 }
+.lead {
+	font-size: 16px;
+	font-weight: 300;
+	margin-top: 0;
+}
+
+#me {
+	padding: 60px 0 20px 0;
+}
+
+/* Social
+=======================================*/
+.social a{
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	cursor:pointer;
+    border:none;
+}
+.social .email {	
+	background:url(../img/Email.png) no-repeat;
+   
+}
+.social .linkedin {	
+	background:url(../img/Linkedin.png) no-repeat;
+}
+.social .dribbble {	
+	background:url(../img/Dribbble.png) no-repeat;
+}
+.social .behance {	
+	background:url(../img/Behance.png) no-repeat;
+}
+.social .email:hover {	
+	background:url(../img/Email-hover.png) no-repeat;
+   
+}
+.social .linkedin:hover {	
+	background:url(../img/Linkedin-hover.png) no-repeat;
+}
+.social .dribbble:hover {	
+	background:url(../img/Dribbble-hover.png) no-repeat;
+}
+.social .behance:hover {	
+	background:url(../img/Behance-hover.png) no-repeat;
+}
+.social:before {
+	content: "";
+	display: block;
+	border-top: 1px solid;
+	width: 60px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+
+
 /* thumbnail
 =======================================*/
-.thumbnail h3{
-	font-size: 20px;
-	margin: 4px 0;
-}
-.thumbnail  img {
-	border-radius: 5px;
+.preview {
+	overflow: hidden;
+	border-radius: 3px;
+	margin: 4px;
 }
 
-.thumbnail p {
-	color: #777;
+.preview img {
+	height: 300px;
 }
-.thumbnail a{
-	color: #424242;
+
+/* about
+=======================================*/
+.self-intro {
+	
+	margin: auto;
 }
-.thumbnail a:hover{
-	text-decoration: none;
+.self-intro .body-text{
+	max-width: 400px;
+	margin: auto;
+	margin-top: 20px;
 }
-.thumbnail:hover {
-	background: #d6ffd7;
+.self-intro:before{
+	content: "";
+	display: block;
+	border-top: 1px solid;
+	width: 260px;
+    margin: auto;
+    margin-bottom: 20px;
 }
-.thumbnail .caption {
-	height: 100px;
+.self-intro:after{
+	content: "";
+	display: block;
+	border-bottom: 1px solid;
+	width: 260px;
+    margin: auto;
+    margin-bottom: 20px;
 }
-/* Ribbon */
-.banner {
-	position: absolute;
-	top: 15px;
-	right: -0px;
-	overflow: visible;
-	font-size: 18px;
-	line-height: 18px;
-	padding:20px;
-	background:#f06657;
-	height:58px;
-	margin-left:29px;
-	color:#fff;
-	text-decoration:none;
+.greeting {
+	font-size: 28px;
+	font-weight: 300;
+	letter-spacing: 4px;
 }
-.banner:after {
-	content:""; 
-	height: 0;
-	width: 0;
-	display:block;
-	position:absolute;
-	bottom:-15px;
-	right:0;
-	border-top: 15px solid #74231a; 
-	border-right: 15px solid transparent;
+.profile-pic {
+	max-height: 400px;
+	border: 8px solid white;
+	max-width: 400px;
+	text-align: center;
+	display: inline-block;
+	margin: auto;
+	margin-top: 10px;
+
 }
-.banner:before {
-	content:"";
-	height: 0;
-	width: 0;
-	display:block;
-	position:absolute;
-	top:0;
-	left:-29px;
-	border-top: 29px solid #f06657; 
-	border-bottom: 29px solid #f06657; 
-	border-right: 29px solid transparent;
-	border-left: 29px solid transparent;
-}
+
+
+
+

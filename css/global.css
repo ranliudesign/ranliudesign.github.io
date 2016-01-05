@@ -1,113 +1,101 @@
 
 /* to be removed by customize bootstrap
 =======================================*/
-.jumbotron {
-	background-color: white;
-	color: #424242;
-	/*padding-top: 60px;*/
-	padding-bottom: 60px;
+
+body {
+	font-size: 16px;
+	color: #354A5F;
+	font-family: 'Raleway', sans-serif;
 }
 
-p {
-	font-size: 16px;
-}
 
 a {
-	color: #f06657;
+	color: #354A5F;
 }
 
 a:hover {
-	color: #f47d7a;
+	color: #01DB8F;
+	text-decoration: none;
+}
+
+#top-bar {
+	background-color: #C9E9E6;
+	height: 8px;
+}
+
+.gray {
+	background-color: #f0f0f0;
 }
 /* global components
 =======================================*/
-body {
-	padding-top: 50px;
-}
+
 html, body {
 	height: 100%;
 }
 
-.btn-default {
-	border-color: #424242;
-	border-radius: 0;
-	text-align: center;
-	margin: 40px;
-}
 .container {
-	max-width: 1000px;
-	padding-top: 40px;
-	padding-bottom: 40px;
-}
-
-.turquoise {
-	background-color: #7DD5C9;
-}
-.darkblue {
-	background-color: #4c5364;
-	color: #b7bbc9;
-}
-
-.linen {
-	background-color: #efede7;
-}
-.yellow {
-	background-color: #fed587;
-}
+	max-width: 1400px;
+	padding: 40px 0;
 
 
-
-/* navbar
-=======================================*/
-.navbar > .container {
-	padding: 0 0;
-}
-.logo {
-	font-family: 'Lobster', cursive;
-	font-size: xx-large;
-	color: #424242 !important;
 }
 
-.navbar-default {
-	background-color: #fff;
-	border: none;
-	/*padding: 10px 0;*/
+.CTA {
+	display: block;
+	margin: auto;
+	border: 1px solid;
+	padding: 20px;
+	width: 300px;
+	margin-top: 40px;
+	margin-bottom: 40px;
 }
 
-.navbar-nav>li>a {
-	font-size: larger;
-}
-
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
-	color: #fff;
-	background-color: #424242;
-}
 
 /* sections
 =======================================*/
 .section-desc {
-	max-width: 600px;
+	max-width: 400px;
 	margin: auto;
+	margin-top: 40px;
 }
 
 .section-header {
-	font-family: 'Lobster', cursive;
-	margin-bottom: 20px;
-	text-align: center;
+	margin-top: 20;
+	margin-bottom: 80px;
+	text-transform: uppercase;
+	font-size: 21px;
+	font-weight: 600;
+	letter-spacing: 5px;
 
 }
-
 .row {
-	margin-top: 20px;
-	padding: 10px;
+	margin: auto;
+}
+.testmonial {
+	padding: 20px 0 20px 0;
+}
+
+.person {
+	margin: 40px 0;
+	padding-right: 5px;
+}
+
+.testmonial:after {
+	content: "";
+	display: block;
+	width: 80%;
+	border-bottom: 1px solid #f0f0f0;
+	margin: auto;
+}
+.testmonial:last-child:after {
+	border: none;
 }
 
 /* footer
 =======================================*/
 footer {
-	background-color: #000;
-	color: #888c99; 
-	padding: 10px 100px;
+	background-color: #C9E9E6;
+	padding: 10px 200px;
 }
 
 footer > p {
