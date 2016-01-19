@@ -68,10 +68,24 @@ h1 {
 	overflow: hidden;
 	border-radius: 3px;
 	margin: 4px;
+	text-align: center;
 }
 
 .preview img {
 	height: 300px;
+	
+}
+.proj-1 {
+	background-color: #F1E3BE;
+}
+.proj-2 {
+	background-color: #C9E9E6;
+}
+.proj-3 {
+	background-color: #F6E6E6;
+}
+.proj-4 {
+	background-color: #4C4D4F;
 }
 
 /* about
