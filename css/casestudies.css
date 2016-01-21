@@ -1,0 +1,28 @@
+/* nav */
+.back-and-next .container {
+	padding: 10px 0;
+}
+
+/* title */
+.case-study h1 {
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-size: 21px;
+}
+
+.case-study .desc {
+	max-width: 700px;
+	margin: auto;
+	color: #90888A;
+	line-height: 1.8;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	letter-spacing: 0.5px;
+}
+
+.case-study .block {
+	max-width: 900px;
+	margin: auto;
+	margin-top: 12px;
+}
