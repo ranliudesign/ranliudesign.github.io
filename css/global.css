@@ -22,7 +22,9 @@ a:hover {
 	background-color: #C9E9E6;
 	height: 8px;
 }
-
+.theme {
+	background-color: #C9E9E6;
+}
 .gray {
 	background-color: #f0f0f0;
 }
