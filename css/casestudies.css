@@ -30,3 +30,11 @@
 .case-study .quote {
 	background-color: #f9f9f9;
 }
+
+.case-study a,
+.case-study a:visited {
+	color: #7DCAB8;
+}
+.case-study a:hover {
+	text-decoration: underline;
+}
