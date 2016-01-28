@@ -74,7 +74,7 @@ html, body {
 	margin: auto;
 }
 .testmonial {
-	padding: 20px 0 20px 0;
+	padding: 20px 2em 20px 2em;
 }
 
 .person {
@@ -97,7 +97,7 @@ html, body {
 =======================================*/
 footer {
 	background-color: #C9E9E6;
-	padding: 10px 200px;
+	padding: 10px 2em;
 }
 
 footer > p {
