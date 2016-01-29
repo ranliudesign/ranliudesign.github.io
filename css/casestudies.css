@@ -1,35 +1,38 @@
-/* nav */
-.back-and-next .container {
-	padding: 10px 0;
-}
 
 /* title */
+.case-study .section-header {
+	margin-bottom: 40px;
+}
 .case-study h1 {
 	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: 5px;
 	font-size: 21px;
+	padding: 0 2em;
 }
 
-.case-study .desc {
-	max-width: 700px;
+.desc {
+	max-width: 800px;
 	margin: auto;
 	color: #90888A;
 	line-height: 1.8;
 	margin-top: 40px;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 	letter-spacing: 0.5px;
 	padding: 0 2em;
 }
 
-.case-study .block {
-	max-width: 900px;
+.block {
+	max-width: 800px;
 	margin: auto;
 	margin-top: 12px;
+	padding: 0 2em;	
 }
 
 .case-study .quote {
 	background-color: #f9f9f9;
+	font-size: 18px;
+	padding: 40px 2em;
 }
 
 .case-study a,
@@ -39,3 +42,35 @@
 .case-study a:hover {
 	text-decoration: underline;
 }
+
+h4 {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin: 20px 0;
+}
+
+img {
+	margin: 10px auto;
+}
+
+p {
+	margin: 16px 0 16px;
+}
+
+h3 {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 18px;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+
+h3:before {
+	content: "";
+	display: block;
+	width: 60px;
+	border-top: solid 3px;
+	margin-bottom: 10px;
+}
+
