@@ -100,7 +100,7 @@ h1 {
 	margin: auto;
 }
 .self-intro .body-text{
-	max-width: 400px;
+	
 	margin: auto;
 	margin-top: 20px;
 }
@@ -109,7 +109,7 @@ h1 {
 	display: block;
 	border-top: 1px solid;
 	width: 260px;
-    margin: auto;
+
     margin-bottom: 20px;
 }
 .self-intro:after{
@@ -117,18 +117,17 @@ h1 {
 	display: block;
 	border-bottom: 1px solid;
 	width: 260px;
-    margin: auto;
+  
     margin-bottom: 20px;
 }
 .greeting {
-	font-size: 28px;
+	font-size: 21px;
 	font-weight: 300;
 	letter-spacing: 4px;
 }
 .profile-pic {
-	max-height: 400px;
+	max-height: 450px;
 	border: 8px solid white;
-	max-width: 400px;
 	text-align: center;
 	display: inline-block;
 	margin: auto;
@@ -136,6 +135,9 @@ h1 {
 
 }
 
+.about .CTA {
+	margin-left: 0;
+}
 
 
 
