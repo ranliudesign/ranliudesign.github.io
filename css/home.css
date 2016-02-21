@@ -73,16 +73,27 @@ h1 {
 .preview {
 	overflow: hidden;
 	border-radius: 3px;
-	margin: 4px;
+	margin: 14px 0;
 	text-align: center;
+	list-style: none;
+	padding-left: 0;
+	height: 300px;
 }
 
 .preview img {
 	height: 300px;
-	
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+}
+
+.preview img:hover {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
 }
 .proj-1 {
-	background-color: #F1E3BE;
+	background-color: #EAEAEA;
 }
 .proj-2 {
 	background-color: #C9E9E6;
@@ -90,13 +101,23 @@ h1 {
 .proj-3 {
 	background-color: #F6E6E6;
 }
-.proj-3 a{
+.proj-3 a,
+.proj-5 a,
+.proj-6 a{
 	display: block;
 	height: 300px;
 	line-height: 300px;
 }
 .proj-4 {
 	background-color: #4C4D4F;
+	color: white;
+}
+
+.proj-5 {
+	background-color: #E6EEF0;
+}
+.proj-6 {
+	background-color: #FFF9F0;
 }
 
 /* about
