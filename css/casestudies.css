@@ -3,6 +3,10 @@
 .case-study .section-header {
 	margin-bottom: 40px;
 }
+
+.case-study .container {
+	max-width: 800px;
+}
 .case-study h1 {
 	text-align: center;
 	text-transform: uppercase;
@@ -76,3 +80,6 @@ h3:before {
 	margin-bottom: 10px;
 }
 
+.case-study-illustration .desc {
+	margin-bottom: 0;
+}
