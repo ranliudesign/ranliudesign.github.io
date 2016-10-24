@@ -210,7 +210,13 @@
 		})(window,document);
 
 		amplitude.getInstance().init("0cae7571475485bbba9decd3e5967ecc");
-		amplitude.logEvent('test event');
+	</script>
+	<script type="text/javascript">
+		$('#btn-resume').on('click', function(e) {
+			e.preventDefault();
+			amplitude.logEvent("resume-clicked");
+			window.location='files/ranliu.pdf'
+		})
 	</script>
 
   </body>
