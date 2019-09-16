@@ -1,0 +1,158 @@
+navbar {
+  margin-top: 16px;
+}
+
+nav {
+  -webkit-transition: width 0.25s ease-out 0s, margin 0.25s ease-out 0s;
+  transition: width 0.25s ease-out 0s, margin 0.25s ease-out 0s;
+  text-align: right;
+}
+
+nav a {
+  margin-left: 2em;
+  padding: 0 0.5em;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  color: #051526;
+  font-weight: 600;
+  letter-spacing: 2px;
+  line-height: 48px;
+  display: inline-block;
+  border-bottom: none;
+}
+
+nav button {
+  margin-left: 2em;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  size: 1em;
+}
+
+#logo {
+  height: 56px;
+  -webkit-transition: all 0.25s ease-out 0s;
+  transition: all 0.25s ease-out 0s;
+}
+
+#logo-headline #logo-subtitle {
+  font-family: "Poppins", sans-serif;
+  -webkit-transition: all 0.25s ease-out 0s;
+  transition: all 0.25s ease-out 0s;
+}
+
+.project-cover {
+  height: 100%;
+}
+
+.intro {
+  max-width: 960px;
+  margin: 2em auto;
+  text-align: center;
+  line-height: 1.6em;
+}
+
+.intro .col {
+  padding: 128px 0;
+}
+
+.intro h1 {
+  color: #051526;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-size: 5em;
+}
+
+.intro p {
+  font-size: 1.1em;
+}
+
+.social a {
+  margin-left: 24px;
+  padding: 4px;
+}
+
+a {
+  font-size: 1em;
+  text-decoration: none;
+  font-weight: 600;
+  color: #293FF6;
+}
+
+a:hover {
+  color: #293FF6;
+  text-decoration: none;
+  background-color: #E9F2FF;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: 600;
+  color: #051526;
+  margin-bottom: 64px;
+  letter-spacing: 2px;
+}
+
+.work-item {
+  margin-bottom: 128px;
+  min-height: 334px;
+}
+
+.work-item .tags {
+  font-size: .8em;
+  color: #51CFFF;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.work-item .project-title {
+  color: #051526;
+  font-size: 1.5em;
+  font-weight: 600;
+  margin: 8px 0 16px 0;
+}
+
+.work-item button {
+  margin-top: 16px;
+}
+
+.work-item img {
+  width: 100%;
+}
+
+.emphasis {
+  color: #293FF6;
+  margin-left: 2px;
+}
+
+button {
+  background-color: #293FF6;
+  color: white;
+  padding: 8px 32px;
+  border: none;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+}
+
+button:hover {
+  background-color: #51CFFF;
+}
+
+footer {
+  background-color: #051526;
+  color: white;
+  text-align: center;
+  font-size: 0.8em;
+  line-height: 36px;
+}
+
+.container {
+  max-width: 1440px;
+}
+/*# sourceMappingURL=global.css.map */

@@ -1,0 +1,125 @@
+$primary-color: #293FF6
+$secondary-color: #51CFFF
+$text-color: #051526
+$accent: #31f7c8
+$bg-color: #E9F2FF
+$font-fam: 'Poppins', sans-serif
+navbar
+margin-top: 16px
+nav
+    transition: width 0.25s ease-out 0s, margin 0.25s ease-out 0s
+    text-align: right
+
+    a
+        margin-left: 2em
+        padding: 0 0.5em
+        font-family: $font-fam
+        text-transform: uppercase
+        color: $text-color
+        font-weight: 600
+        letter-spacing: 2px
+        line-height: 48px
+        display: inline-block
+        border-bottom: none
+    button
+        margin-left: 2em
+
+body
+    font-family: $font-fam
+    size: 1em
+
+#logo
+    height: 56px
+    transition: all 0.25s ease-out 0s
+
+#logo-headline #logo-subtitle
+    font-family: $font-fam
+    transition: all 0.25s ease-out 0s
+
+.project-cover
+    height: 100%
+
+.intro
+    max-width: 960px
+    margin: 2em auto
+    text-align: center
+    line-height: 1.6em
+
+    .col
+        padding: 128px 0
+    h1
+        color: $text-color
+        font-weight: 600
+        letter-spacing: 2px
+        font-size: 5em
+
+    p
+        font-size: 1.1em
+
+.social a
+    margin-left: 24px
+    padding: 4px
+
+a
+    font-size: 1em
+    text-decoration: none
+    font-weight: 600
+    color: $primary-color
+
+a:hover
+    color: $primary-color
+    text-decoration: none
+    background-color: $bg-color
+    transition: all 0.35s
+h2
+    font-size: 2em
+    font-weight: 600
+    color: $text-color
+    margin-bottom: 64px
+    letter-spacing: 2px
+
+.work-item
+    margin-bottom: 128px
+    min-height: 334px
+    .tags
+        font-size: .8em
+        color: $secondary-color
+        text-transform: uppercase
+        letter-spacing: 1px
+
+    .project-title
+        color: $text-color
+        font-size: 1.5em
+        font-weight: 600
+        margin: 8px 0 16px 0
+    button
+        margin-top: 16px
+    img
+        width: 100%
+
+.emphasis
+    color: $primary-color
+    margin-left: 2px
+
+button
+    background-color: $primary-color
+    color: white
+    padding: 8px 32px
+    border: none
+    font-weight: 600
+    text-transform: uppercase
+    letter-spacing: 1px
+    transition: all 0.25s
+
+    &:hover
+        background-color: $secondary-color
+
+footer
+    background-color: $text-color
+    color: white
+    text-align: center
+    font-size: 0.8em
+    line-height: 36px
+
+.container
+    max-width: 1440px
