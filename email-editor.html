@@ -97,28 +97,163 @@
           </p>
           <h3>Learnings from User research</h3>
           <p>
-            We started the project by conducting qualitative user research on the existing email editor.
+            We started the project by conducting qualitative user research on
+            the existing email editor.
           </p>
 
           <ul>
-            The existing experience is failing the modern email marketers:
+            The existing Marketo email editing experience is failing the modern
+            email marketers:
             <li>
-              Marketers expect to have a selection of 
+              Marketers expect to have email templates offered out-of-box. The
+              existing email editor require the marketers to build their own
+              email templates that require special engineering. And no email can
+              be sent until the templates are built and loaded into the Marketo
+              ecosystem.
             </li>
             <li>
-              Potential buyers want to see the real product screenshots and
-              social proof rather than the abstract illustrations we have.
+              The existing template picking experience is rather clumsy. The UI
+              is nothing but a dropdown of abstract names. It requires a high
+              memory load for marketers to memorize which template to use.
             </li>
-            <li>proof makes people more confident in our product.</li>
             <li>
-              public demo works really well at telling the amplitude story once
-              the user overcomes the initial overwhelming experience when first
-              landed into the product.
+              The templates in Marketo cannot be modified. Once the email
+              template is build, their is no easy way for the end user of the
+              template to customize it. The marketers cannot add or remove an
+              image, text, add section or change the layout of the email. The
+              marketers need to learn how to code or has to wait for engineering
+              team to change the template.
+            </li>
+            <li>
+              The existing email editing experience isn’t designed for mobile at
+              all. Marketers need to manually shrink the browser to test the
+              mobile view of the email.
+            </li>
+            <li>
+              There is no support for any global styles or design system
+              component. If there is a need to change the button style, the
+              marketer needs to change all the individual instances.
             </li>
           </ul>
-       
+
+          <h3>The template picker</h3>
+          <p>
+            Because this is a project with an aggressive deadline, I need to be
+            able to deliver some design to the engineer team to work on. I
+            decided to start with a template picker, because it’s a new and
+            contained experience. I designed the template picker to be visual
+            oriented, so that marketers can select a template based on the
+            thumbnails. A additional popup is also available for marketers to
+            read more about the template before committing.
+          </p>
+
+          <img src="img/email/template picker.png" />
+          <div class="caption">Template picker</div>
+          <img src="img/email/template-popup.png" />
+          <div class="caption">Template details</div>
+
+          <h3>The new email editor</h3>
+          <p>
+            Once I shipped the email template picker, I continue to re-imagine
+            the email editing experience. I decided to introduce the a few new
+            differentiators to make the Marketo email editor more competitive:
+          </p>
+          <ul>
+            <li>
+              We introduced flexible email layout. Each email template consists
+              of many different modules. The user can then construct a email
+              with one or more of these modules.
+            </li>
+            <li>
+              To make email constructing experience simple, we introduced a drag
+              and drop interaction pattern.
+            </li>
+            <li>
+              We added support for preview for mobile devices.
+            </li>
+            <li>
+              We also added support for a email design system, you only need to
+              define the style once, all of the component using the style will
+              update automatically.
+            </li>
+          </ul>
+          <img src="img/email/visual-modules.png" />
+          <div class="caption">Visual Modules</div>
+          <img src="img/email/drag-n-drop.png" />
+          <div class="caption">Drag and drop Experience and interaction</div>
+          <img src="img/email/mobile-preview.png" />
+          <div class="caption">
+            Responsive preview for desktop, tablet and mobile devices
+          </div>
+          <img src="img/email/global-style.png" />
+          <div class="caption">Global styles and design system support</div>
+
+          <h3>User Feedback</h3>
+          <p>
+            I conducted a round of usability testing. To make sure the feedback
+            is representative, I selected participants with different levels of
+            expertise with Marketo.
+          </p>
+          <img src="img/email/usability-test.png" />
+          <div class="caption">
+            I interviewed five users with expertise ranging from a novice user
+            to an expert user
+          </div>
+
+          <ul>
+            Something that people loved:
+            <li>
+              The new visual design looks modern and more friendly to users
+            </li>
+            <li>
+              All the new features are considered “valuable” for these users
+            </li>
+            <li>
+              Experienced Marketo users can recognized the consistent
+              interaction patterns
+            </li>
+          </ul>
+          <p>
+            But we've also found a big challenge:
+          </p>
+          <p>
+            In my research, almost all users mentioned they wish to see an
+            overview of the structure of the email they are crafting. Compare to
+            the email content, available modules are secondary.
+          </p>
+
+          <h3>Design iterations on the tools panel</h3>
+          <p>
+            To give marketers a better preview of the email structure, I iterated on the right-side tools panel many times to find the best solution. 
+          </p>
+          <img src="img/email/iterations.png" />
+          <div class="caption">
+            Design iterations on the tools panel
+          </div>
+          <p>I ended up with a 2-step solution. I initially show the overall structure on the modules level. So that the marketers can easily see and understand what’s inside an email. They can then decide if the overall structure of an email is good enough. </p>
+          <p>The user can then drill down into a module by clicking into a module or even a component on the email itself. Hover effects are introduced to help the users orient themselves. </p>
+          <img src="img/email/drill-in.png" />
+          <div class="caption">
+            Drill into a module
+          </div>
+          <img src="img/email/hover.png" />
+          <div class="caption">
+            Hover highlight keeps users oriented
+          </div>
+
+          <h3>
+            Outcome
+          </h3>
+          <ul>
+            <li>The redesign is featured in Marketo User Summit 2016 as part of the product keynote</li>
+            <li>Launched and released to all customers July 2016. You can read some of the happy tweets below:</li>
+          </ul>
+          <img src="img/email/tweet-1.png" />
+          <img src="img/email/tweet-2.png" />
+          <img src="img/email/tweet-3.png" />
+
           <div class="ending">
-            Thanks for reading. <a href="/">Back to all work </a>
+            Thanks for reading. <a href="/">Back to Home </a>
           </div>
         </div>
       </div>
