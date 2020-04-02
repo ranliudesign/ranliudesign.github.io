@@ -155,6 +155,7 @@ footer {
 
 .container {
   max-width: 1440px;
+  min-height: 85%;
 }
 
 .case-study-header {
@@ -278,5 +279,15 @@ h3 {
 
 .talks .row {
   margin-bottom: 1em;
+}
+
+.product-desc {
+  margin: 32px auto;
+  max-width: 50%;
+}
+
+.product-desc h3 {
+  margin-top: 0;
+  margin-bottom: 8px;
 }
 /*# sourceMappingURL=global.css.map */
